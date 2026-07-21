@@ -1,82 +1,101 @@
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abhishek Mukherjee — AI Engineer, Full-Stack Developer">
-  <defs>
-    <radialGradient id="glowBlue" cx="18%" cy="20%" r="55%">
-      <stop offset="0%" stop-color="#6E8FFF" stop-opacity="0.32"/>
-      <stop offset="100%" stop-color="#6E8FFF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowPurple" cx="88%" cy="85%" r="55%">
-      <stop offset="0%" stop-color="#A66CFF" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#A66CFF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="traceStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6E8FFF" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#6E8FFF" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#A66CFF" stop-opacity="0.9"/>
-      <stop offset="85%" stop-color="#6E8FFF" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#A66CFF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="pillStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6E8FFF"/>
-      <stop offset="100%" stop-color="#A66CFF"/>
-    </linearGradient>
-    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
-    <clipPath id="cardClip">
-      <rect x="1" y="1" width="1198" height="298" rx="24"/>
-    </clipPath>
-  </defs>
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Abhishek Mukherjee — Engineer, Builder, Systems Thinker">
 
-  <g clip-path="url(#cardClip)">
-    <rect x="1" y="1" width="1198" height="298" rx="24" fill="#0A0B10"/>
-    <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#glowBlue)"/>
-    <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#glowPurple)"/>
+  <!-- Background -->
+  <rect width="1200" height="300" rx="3" fill="#070709"/>
 
-    <!-- faint dot grid texture -->
-    <g fill="#FFFFFF" opacity="0.05">
-      <g id="dotrow">
-        <circle cx="40" cy="40" r="1"/><circle cx="80" cy="40" r="1"/><circle cx="120" cy="40" r="1"/>
-        <circle cx="160" cy="40" r="1"/><circle cx="200" cy="40" r="1"/><circle cx="240" cy="40" r="1"/>
-        <circle cx="280" cy="40" r="1"/><circle cx="320" cy="40" r="1"/><circle cx="360" cy="40" r="1"/>
-        <circle cx="400" cy="40" r="1"/><circle cx="440" cy="40" r="1"/><circle cx="480" cy="40" r="1"/>
-      </g>
-      <use href="#dotrow" y="40"/>
-      <use href="#dotrow" y="80"/>
-      <use href="#dotrow" y="120"/>
-      <use href="#dotrow" y="160"/>
-      <use href="#dotrow" y="200"/>
-      <use href="#dotrow" y="240"/>
-    </g>
+  <!-- Left editorial margin rule -->
+  <line x1="64" y1="36" x2="64" y2="264" stroke="#1C1C22" stroke-width="1"/>
 
-    <!-- ghost monogram -->
-    <text x="1050" y="230" font-family="'Segoe UI', system-ui, sans-serif" font-size="220" font-weight="700"
-          fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2" text-anchor="middle">AM</text>
+  <!-- Margin index label -->
+  <text x="32" y="160"
+    font-family="'Courier New',Courier,monospace"
+    font-size="10" fill="#252530" text-anchor="middle"
+    letter-spacing="2">01</text>
 
-    <!-- signature signal trace -->
-    <path id="tracePath" d="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"
-          fill="none" stroke="url(#traceStroke)" stroke-width="1.5" opacity="0.8"/>
-    <circle r="4" fill="#EDEEF3" filter="url(#softBlur)">
-      <animateMotion dur="6s" repeatCount="indefinite"
-        path="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"/>
-    </circle>
-    <circle r="2.5" fill="#EDEEF3">
-      <animateMotion dur="6s" repeatCount="indefinite"
-        path="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"/>
-    </circle>
+  <!-- ── Name Block ── -->
 
-    <!-- eyebrow -->
-    <text x="60" y="70" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace" font-size="14"
-          letter-spacing="3" fill="#8C8FA3">// BUILDING INTELLIGENT SYSTEMS</text>
+  <!-- ABHISHEK — primary, full opacity -->
+  <text x="88" y="152"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+    font-size="80" font-weight="300"
+    letter-spacing="14"
+    fill="#EBEBED">ABHISHEK</text>
 
-    <!-- status pill -->
-    <rect x="55" y="230" width="330" height="40" rx="20" fill="#13141C" stroke="url(#pillStroke)" stroke-width="1" opacity="0.9"/>
-    <circle cx="80" cy="250" r="4" fill="#6E8FFF">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <text x="96" y="255" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace" font-size="13"
-          fill="#C7C9D9" letter-spacing="0.5">AI Engineer · Full-Stack Developer</text>
+  <!-- MUKHERJEE — secondary, reduced opacity for depth -->
+  <text x="88" y="228"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+    font-size="80" font-weight="300"
+    letter-spacing="14"
+    fill="#EBEBED" opacity="0.24">MUKHERJEE</text>
 
-    <!-- border -->
-    <rect x="1" y="1" width="1198" height="298" rx="24" fill="none" stroke="#262838" stroke-width="1"/>
-  </g>
+  <!-- Rule beneath name -->
+  <line x1="64" y1="248" x2="760" y2="248" stroke="#1C1C22" stroke-width="1"/>
+
+  <!-- Tagline -->
+  <text x="88" y="270"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+    font-size="11" font-weight="400"
+    letter-spacing="3.5"
+    fill="#5E5E66">ENGINEER · BUILDER · SYSTEMS THINKER</text>
+
+  <!-- ── Geometric Crosshair Mark (right zone) ── -->
+
+  <!-- Outer circle — thin structural ring -->
+  <circle cx="1040" cy="150" r="82"
+    fill="none" stroke="#1C1C22" stroke-width="1"/>
+
+  <!-- Inner circle — inner ring -->
+  <circle cx="1040" cy="150" r="50"
+    fill="none" stroke="#1C1C22" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Crosshair lines (inner segment only) -->
+  <line x1="1040" y1="118" x2="1040" y2="182" stroke="#252530" stroke-width="1"/>
+  <line x1="1008" y1="150" x2="1072" y2="150" stroke="#252530" stroke-width="1"/>
+
+  <!-- Cardinal tick marks -->
+  <line x1="1040" y1="62" x2="1040" y2="76" stroke="#252530" stroke-width="1.5"/>
+  <line x1="1040" y1="224" x2="1040" y2="238" stroke="#252530" stroke-width="1.5"/>
+  <line x1="952" y1="150" x2="966" y2="150" stroke="#252530" stroke-width="1.5"/>
+  <line x1="1114" y1="150" x2="1128" y2="150" stroke="#252530" stroke-width="1.5"/>
+
+  <!-- Center dot — accent -->
+  <circle cx="1040" cy="150" r="3.5" fill="#8B7CF8"/>
+
+  <!-- Rotating outer arc — clockwise, slow -->
+  <circle cx="1040" cy="150" r="82"
+    fill="none"
+    stroke="#8B7CF8"
+    stroke-width="1.5"
+    stroke-dasharray="52 463"
+    stroke-linecap="round"
+    opacity="0.65">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 1040 150" to="360 1040 150"
+      dur="20s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rotating inner arc — counter-clockwise, slower -->
+  <circle cx="1040" cy="150" r="50"
+    fill="none"
+    stroke="#8B7CF8"
+    stroke-width="1"
+    stroke-dasharray="22 292"
+    stroke-linecap="round"
+    opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 1040 150" to="-360 1040 150"
+      dur="28s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Handle label below mark -->
+  <text x="1040" y="282"
+    font-family="'Courier New',Courier,monospace"
+    font-size="9" fill="#2E2E36" text-anchor="middle"
+    letter-spacing="2.5">RICK2882004</text>
+
+  <!-- Outer border -->
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="3"
+    fill="none" stroke="#1C1C22" stroke-width="1"/>
+
 </svg>

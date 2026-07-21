@@ -1,0 +1,14 @@
+<svg viewBox="0 0 1200 24" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="">
+
+  <!-- Left segment of rule -->
+  <line x1="0" y1="12" x2="590" y2="12" stroke="#1C1C22" stroke-width="1"/>
+
+  <!-- Centre diamond — accent mark -->
+  <path d="M 600 4 L 609 12 L 600 20 L 591 12 Z"
+    fill="none" stroke="#8B7CF8" stroke-width="1"/>
+
+  <!-- Right segment of rule -->
+  <line x1="610" y1="12" x2="1200" y2="12" stroke="#1C1C22" stroke-width="1"/>
+
+</svg>
