@@ -17,10 +17,10 @@ I build systems that think — and interfaces that disappear into the experience
 **Jarvis AI OS**&ensp;[↗](https://github.com/Rick2882004)  
 An assistant-first operating layer that turns natural language into real action across your applications. The interface becomes an intention.
 
-**RideX**&ensp;[↗](https://github.com/Rick2882004)  
+**RideX**&ensp;[↗](https://github.com/Rick2882004/RideX)  
 Ride-hailing infrastructure rebuilt for reliability under load. Real-time matching without the lag — engineered for rush hour, not the average case.
 
-**MusicFlow**&ensp;[↗](https://github.com/Rick2882004)  
+**MusicFlow**&ensp;[↗](https://github.com/Rick2882004/musicflow)  
 An editorial-quality music experience. A frontend that moves like the music does, sitting on top of a real-time streaming backend.
 
 <br/>
@@ -55,7 +55,7 @@ TypeScript and Python for logic. React and Next.js for interfaces that hold up. 
 
 <div align="center">
 
-[Email](mailto:hello@abhishekmukherjee.dev)&ensp;·&ensp;[LinkedIn](https://linkedin.com/in/abhishekmukherjee)&ensp;·&ensp;[X&nbsp;/&nbsp;Twitter](https://x.com/abhishekmukh)&ensp;·&ensp;[Portfolio](https://abhishekmukherjee.dev)
+[Email](a.mukherjew581699@gmail.com)&ensp;·&ensp;[LinkedIn](https://www.linkedin.com/in/abhishek-mukherjee-b31906277/)&ensp;·&ensp;[Portfolio](https://abhishekmukherjee.dev)
 
 </div>
 
