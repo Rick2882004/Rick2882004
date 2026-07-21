@@ -1,0 +1,11 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Postgres / Data">
+  <defs>
+    <linearGradient id="g-pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E8FFF"/><stop offset="100%" stop-color="#A66CFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#13141C" stroke="#22242F"/>
+  <path d="M32 18 C40 28 46 34 46 41 C46 48.2 39.7 53 32 53 C24.3 53 18 48.2 18 41 C18 34 24 28 32 18 Z"
+        fill="none" stroke="url(#g-pg)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M25 41 H39" stroke="#EDEEF3" stroke-width="1.5" opacity="0.6"/>
+</svg>

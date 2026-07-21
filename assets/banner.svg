@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abhishek Mukherjee — AI Engineer, Full-Stack Developer">
+  <defs>
+    <radialGradient id="glowBlue" cx="18%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#6E8FFF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#6E8FFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="88%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#A66CFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#A66CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="traceStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E8FFF" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#6E8FFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#A66CFF" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#6E8FFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A66CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pillStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E8FFF"/>
+      <stop offset="100%" stop-color="#A66CFF"/>
+    </linearGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="1198" height="298" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="1" y="1" width="1198" height="298" rx="24" fill="#0A0B10"/>
+    <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#glowBlue)"/>
+    <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#glowPurple)"/>
+
+    <!-- faint dot grid texture -->
+    <g fill="#FFFFFF" opacity="0.05">
+      <g id="dotrow">
+        <circle cx="40" cy="40" r="1"/><circle cx="80" cy="40" r="1"/><circle cx="120" cy="40" r="1"/>
+        <circle cx="160" cy="40" r="1"/><circle cx="200" cy="40" r="1"/><circle cx="240" cy="40" r="1"/>
+        <circle cx="280" cy="40" r="1"/><circle cx="320" cy="40" r="1"/><circle cx="360" cy="40" r="1"/>
+        <circle cx="400" cy="40" r="1"/><circle cx="440" cy="40" r="1"/><circle cx="480" cy="40" r="1"/>
+      </g>
+      <use href="#dotrow" y="40"/>
+      <use href="#dotrow" y="80"/>
+      <use href="#dotrow" y="120"/>
+      <use href="#dotrow" y="160"/>
+      <use href="#dotrow" y="200"/>
+      <use href="#dotrow" y="240"/>
+    </g>
+
+    <!-- ghost monogram -->
+    <text x="1050" y="230" font-family="'Segoe UI', system-ui, sans-serif" font-size="220" font-weight="700"
+          fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2" text-anchor="middle">AM</text>
+
+    <!-- signature signal trace -->
+    <path id="tracePath" d="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"
+          fill="none" stroke="url(#traceStroke)" stroke-width="1.5" opacity="0.8"/>
+    <circle r="4" fill="#EDEEF3" filter="url(#softBlur)">
+      <animateMotion dur="6s" repeatCount="indefinite"
+        path="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"/>
+    </circle>
+    <circle r="2.5" fill="#EDEEF3">
+      <animateMotion dur="6s" repeatCount="indefinite"
+        path="M 60 150 C 220 90, 340 210, 500 150 S 780 90, 940 150 S 1080 190, 1140 150"/>
+    </circle>
+
+    <!-- eyebrow -->
+    <text x="60" y="70" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace" font-size="14"
+          letter-spacing="3" fill="#8C8FA3">// BUILDING INTELLIGENT SYSTEMS</text>
+
+    <!-- status pill -->
+    <rect x="55" y="230" width="330" height="40" rx="20" fill="#13141C" stroke="url(#pillStroke)" stroke-width="1" opacity="0.9"/>
+    <circle cx="80" cy="250" r="4" fill="#6E8FFF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="96" y="255" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace" font-size="13"
+          fill="#C7C9D9" letter-spacing="0.5">AI Engineer · Full-Stack Developer</text>
+
+    <!-- border -->
+    <rect x="1" y="1" width="1198" height="298" rx="24" fill="none" stroke="#262838" stroke-width="1"/>
+  </g>
+</svg>

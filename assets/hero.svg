@@ -1,0 +1,11 @@
+<svg viewBox="0 0 140 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section marker">
+  <defs>
+    <linearGradient id="markStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E8FFF"/>
+      <stop offset="100%" stop-color="#A66CFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M 2 14 L 24 14 L 30 4 L 38 24 L 46 14 L 138 14"
+        fill="none" stroke="url(#markStroke)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="30" cy="4" r="2.5" fill="#A66CFF"/>
+</svg>
